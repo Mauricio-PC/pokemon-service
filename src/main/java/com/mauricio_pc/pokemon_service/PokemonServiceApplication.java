@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PokemonServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PokemonServiceApplication.class, args);
+		SpringApplication.run(PokemonServiceApplication
+				.class, args);
 	}
 
 }
