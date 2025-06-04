@@ -18,6 +18,11 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
 
 eureka:
   client:
